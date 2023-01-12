@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Bitter:wght@200&family=Fira+Sans&display=swap");
+body {
+  background-color: rgb(36, 35, 35);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: "Barlow", sans-serif;
+}
+nav ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  height: 65px;
+  background-color: black;
+  color: white;
+}
+
+nav ul li {
+  padding: 0 12px;
+}
+.brand img {
+  width: 53px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.3rm;
+}
+.container {
+  min-height: 65vh;
+  background-color: black;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  margin: 19px auto;
+  width: 65%;
+  border-radius: 12px;
+  padding: 30px;
+  background-image: url(images/peaches\ cover\ page.png);
+}
+.container1 {
+  min-height: 65vh;
+  background-color: black;
+  color: white;
+  font-family: "Barlow", sans-serif;
+  display: flex;
+  margin: 19px auto;
+  width: 65%;
+  border-radius: 12px;
+  padding: 30px;
+  background-image: url(images/taylor\ redjpg.jpg);
+}
+.Bottom {
+  position: sticky;
+  height: 90px;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 5px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myProgressBar {
+  width: 80vw;
+  cursor: pointer;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background-color: white;
+  font-family: "Fira Sans", sans-serif;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songItem img {
+  width: 40px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.timestamp {
+  margin: 0 20px;
+}
+.timestamp i {
+  margin: 5px;
+  cursor: pointer;
+}
+#gif {
+  width: 60px;
+  height: 40px;
+}
+.songInfo {
+  position: absolute;
+  left: 10vw;
+}
+.songInfo {
+  opacity: 1;
+  transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+}
